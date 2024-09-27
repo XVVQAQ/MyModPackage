@@ -1,0 +1,23 @@
+#curseforge
+minecraftinstance.json
+.curseclient
+downloads
+
+#minecraft
+saves
+resourcepacks
+screenshots
+logs
+.cache
+modernfix
+patchouli_books
+backups
+options.txt
+patchouli_data.json
+usercache.json
+usernamecache.json
+rhino.local.properties
+
+#above 50M,but they are used
+mods/alexscaves-1.1.5.jar
+mods/blue_skies-1.20.1-1.3.31.jar
