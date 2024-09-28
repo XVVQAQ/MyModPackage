@@ -1,0 +1,5 @@
+#840F59 minecraft:bedrock
+#80497A minecraft:dirt
+#2DC94B minecraft:furnace
+#3F84B7 minecraft:grass_block
+#FB5EE3 draconicevolution:placed_item

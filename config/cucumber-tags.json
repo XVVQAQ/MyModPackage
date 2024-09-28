@@ -25,7 +25,7 @@
   "forge:ingots/titanium": "moremekanismprocessing:titanium_ingot",
   "forge:rubber": "null",
   "forge:gems/sapphire": "projectred_core:sapphire",
-  "forge:ingots/bronze": "null",
+  "forge:ingots/bronze": "silentgear:bronze_ingot",
   "forge:ingots/tungsten": "moremekanismprocessing:tungsten_ingot",
   "forge:ingots/platinum": "moremekanismprocessing:platinum_ingot",
   "forge:ingots/tin": "chemlib:tin_ingot",

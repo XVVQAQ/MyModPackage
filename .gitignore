@@ -7,10 +7,12 @@ downloads
 saves
 resourcepacks
 screenshots
+*.log
 logs
 .cache
 modernfix
 patchouli_books
+local\ftbchunks
 backups
 options.txt
 patchouli_data.json
@@ -18,6 +20,10 @@ usercache.json
 usernamecache.json
 rhino.local.properties
 
+#dev tools
+mods\IconExporter-1.20.1-1.3.0.jar
+icon-exports-x32
+config\iconexporter-common.toml
+
 #above 50M,but they are used
 mods/alexscaves-1.1.5.jar
-mods/blue_skies-1.20.1-1.3.31.jar

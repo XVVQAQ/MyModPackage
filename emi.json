@@ -1,0 +1,40 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:furnace",
+      "recipe": "minecraft:kjs/furnace"
+    },
+    {
+      "stack": "#item:blue_skies:cobblestone"
+    },
+    {
+      "stack": "item:blue_skies:turquoise_cobblestone"
+    },
+    {
+      "stack": "item:blue_skies:lunar_cobblestone"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:furnace",
+    "#item:blue_skies:cobblestone",
+    "#item:forge:cobblestone",
+    "item:blue_skies:turquoise_cobblestone",
+    "item:minecraft:cobblestone",
+    "item:blue_skies:lunar_cobblestone",
+    "item:alexscaves:metal_barrel",
+    "#item:minecraft:stone_crafting_materials",
+    "item:minecraft:blast_furnace",
+    "item:minecraft:furnace_minecart",
+    "item:twilightforest:giant_log",
+    "item:minecraft:oak_planks",
+    "item:minecraft:cobblestone_slab"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
