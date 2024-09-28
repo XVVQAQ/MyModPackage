@@ -19,28 +19,28 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getStructure |  |  | Structure | ✘ |
-| getStructureManager |  |  | StructureManager | ✘ |
-| getChunkPos |  |  | ChunkPos | ✘ |
-| getRandomSource |  |  | RandomSource | ✘ |
-| getChunkGenerator |  |  | ChunkGenerator | ✘ |
 | getId |  |  | ResourceLocation | ✘ |
 | getType |  |  | ResourceLocation | ✘ |
-| getLevel |  |  | ServerLevel | ✘ |
-| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
-| getStructureBoundingBox |  |  | BoundingBox | ✘ |
-| getIntersectionBoxes |  |  | Collection<BoundingBox> | ✘ |
+| getChunkPos |  |  | ChunkPos | ✘ |
+| getLevel |  |  | Level | ✘ |
+| getStructureManager |  |  | StructureManager | ✘ |
+| getStructure |  |  | Structure | ✘ |
+| getChunkGenerator |  |  | ChunkGenerator | ✘ |
+| getRandomSource |  |  | RandomSource | ✘ |
 | getChunkBoundingBox |  |  | BoundingBox | ✘ |
+| getStructureBoundingBox |  |  | BoundingBox | ✘ |
 | getIntersectionPieces |  |  | Collection<StructurePiece> | ✘ |
-| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
-| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
+| getIntersectionBoxes |  |  | Collection<BoundingBox> | ✘ |
 | getPiecesContainer |  |  | PiecesContainer | ✘ |
 | getGenStep |  |  | String | ✘ |
+| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
+| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
+| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
@@ -65,13 +65,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -79,6 +72,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

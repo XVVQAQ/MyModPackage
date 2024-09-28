@@ -20,18 +20,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| addBlockState | ResourceLocation, Consumer<VariantBlockStateGenerator> |  | void | ✘ |
-| addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
-| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
-| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
-| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
-| defaultItemModel | ResourceLocation |  | void | ✘ |
-| addLang | String, String |  | void | ✘ |
 | add | ResourceLocation, JsonElement |  | void | ✘ |
+| defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
+| addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
+| addLang | String, String |  | void | ✘ |
+| addBlockState | ResourceLocation, Consumer<VariantBlockStateGenerator> |  | void | ✘ |
+| stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
+| addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
+| defaultItemModel | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
@@ -56,13 +56,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -70,6 +63,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

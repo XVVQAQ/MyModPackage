@@ -5,28 +5,104 @@
       "recipe": "minecraft:kjs/furnace"
     },
     {
-      "stack": "#item:blue_skies:cobblestone"
+      "stack": "item:evilcraft:exalted_crafter_wooden",
+      "recipe": "evilcraft:crafting/exalted_crafter_wooden"
     },
     {
-      "stack": "item:blue_skies:turquoise_cobblestone"
+      "stack": "item:kubejs:arcane_ore",
+      "recipe": "emi_loot:/block_drops/kubejs/blocks/arcane_ore"
     },
     {
-      "stack": "item:blue_skies:lunar_cobblestone"
+      "stack": "item:mekanism:upgrade_speed"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:oak_planks",
+        "amount": 2
+      },
+      "recipe": "notreepunching:generated/minecraft_oak_planks"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:oak_planks",
+        "amount": 4
+      },
+      "recipe": "minecraft:oak_planks"
+    },
+    {
+      "stack": "item:minecraft:crafting_table"
+    },
+    {
+      "stack": "item:notreepunching:flint_axe{Damage:0}"
+    },
+    {
+      "stack": "item:notreepunching:flint_pickaxe{Damage:0}"
+    },
+    {
+      "stack": "item:notreepunching:flint_hoe{Damage:0}"
+    },
+    {
+      "stack": "item:notreepunching:flint_shovel{Damage:0}"
     }
   ],
   "lookup_history": [
+    "item:notreepunching:flint_hoe{Damage:0}",
+    "item:notreepunching:flint_shovel{Damage:0}",
+    "item:notreepunching:flint_axe{Damage:0}",
+    "item:notreepunching:diamond_saw{Damage:0}",
+    "item:notreepunching:diamond_knife{Damage:0}",
+    "item:minecraft:crafting_table",
     "item:minecraft:furnace",
-    "#item:blue_skies:cobblestone",
+    "item:notreepunching:flint_pickaxe{Damage:0}",
+    "item:minecraft:stone_axe",
+    "#item:minecraft:axes",
+    "item:evilcraft:exalted_crafter_wooden",
+    "item:notreepunching:flint_knife{Damage:0}",
+    "item:notreepunching:netherite_knife{Damage:0}",
+    "item:minecraft:stone_pickaxe{Damage:0}",
+    "#item:minecraft:planks",
+    "item:minecraft:oak_log",
+    "item:notreepunching:plant_string",
+    "#item:forge:string",
+    "item:notreepunching:fire_starter{Damage:0}",
+    "item:notreepunching:flint_shard",
+    {
+      "type": "item",
+      "id": "minecraft:oak_planks",
+      "amount": 2
+    },
+    "item:mekanism:upgrade_speed",
+    "item:kubejs:arcane_ore",
+    "#item:notreepunching:weak_saws",
+    "item:minecraft:oak_wood",
+    "item:notreepunching:iron_knife{Damage:0}",
+    "item:ars_nouveau:runic_chalk{Damage:0}",
+    "item:notreepunching:netherite_saw{Damage:0}",
+    "item:notreepunching:iron_mattock{Damage:0}",
+    "item:notreepunching:netherite_mattock{Damage:0}",
+    "item:extendedcrafting:handheld_table",
+    "item:thermal:tinker_bench",
+    "item:cyclic:workbench",
+    "item:cyclic:crafting_bag",
+    "item:cyclic:crafting_stick",
+    "item:sophisticatedstorage:crafting_upgrade",
+    "item:twilightforest:hollow_oak_log",
+    "item:immersiveengineering:deepslate_ore_nickel",
+    "item:alexscaves:guanostone_redstone_ore",
+    "item:mysticalagradditions:end_prosperity_ore",
+    "item:minecraft:deepslate_copper_ore",
+    "item:minecraft:coal_ore",
+    "item:minecraft:acacia_button",
+    "item:evilcraft:exalted_crafter_wooden_empowered",
     "#item:forge:cobblestone",
-    "item:blue_skies:turquoise_cobblestone",
     "item:minecraft:cobblestone",
-    "item:blue_skies:lunar_cobblestone",
     "item:alexscaves:metal_barrel",
     "#item:minecraft:stone_crafting_materials",
     "item:minecraft:blast_furnace",
     "item:minecraft:furnace_minecart",
     "item:twilightforest:giant_log",
-    "item:minecraft:oak_planks",
     "item:minecraft:cobblestone_slab"
   ],
   "craft_history": [],

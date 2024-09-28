@@ -26,27 +26,37 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| setComponent | Component |  | void | ✘ |
-| getComponent |  |  | Component | ✘ |
-| setMessage | Component |  | void | ✘ |
-| getUsername |  |  | String | ✘ |
 | getMessage |  |  | String | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getComponent |  |  | Component | ✘ |
+| setComponent | Component |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getUsername |  |  | String | ✘ |
+| setMessage | Component |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `String getMessage()`
+```
+Gets the message that the player sent.
+```
+
+- `Component getComponent()`
+```
+Gets the message that the player sent.
+```
 
 - `void setComponent(Component var0)`
 
@@ -57,9 +67,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Sets the message that the player sent.
 ```
 
-- `Component getComponent()`
+- `LivingEntity getEntity()`
 ```
-Gets the message that the player sent.
+Gets the player that sent the message.
+```
+
+- `String getUsername()`
+```
+Gets the username of the player that sent the message.
 ```
 
 - `void setMessage(Component var0)`
@@ -71,19 +86,13 @@ Gets the message that the player sent.
 Sets the message that the player sent.
 ```
 
-- `String getUsername()`
-```
-Gets the username of the player that sent the message.
-```
+- `void addGameStage(String var0)`
 
-- `String getMessage()`
-```
-Gets the message that the player sent.
-```
+  Parameters:
+  - var0: String
 
-- `Entity getEntity()`
 ```
-Gets the player that sent the message.
+Adds the specified game stage to the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -93,15 +102,6 @@ Gets the player that sent the message.
 
 ```
 Checks if the player has the specified game stage
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`
@@ -131,13 +131,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -145,6 +138,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

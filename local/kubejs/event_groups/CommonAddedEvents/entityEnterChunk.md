@@ -19,21 +19,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| of | Entity, int, int, int, int, int, int |  | EntityEnterChunkEventJS | ✔ |
+| getEntity |  |  | Entity | ✘ |
+| getPrevX |  |  | int | ✘ |
+| getPrevY |  |  | int | ✘ |
+| getPrevZ |  |  | int | ✘ |
 | getChunkX |  |  | int | ✘ |
 | getChunkZ |  |  | int | ✘ |
 | getChunkY |  |  | int | ✘ |
-| of | Entity, int, int, int, int, int, int |  | EntityEnterChunkEventJS | ✔ |
-| getEntity |  |  | Entity | ✘ |
-| getPrevZ |  |  | int | ✘ |
-| getPrevX |  |  | int | ✘ |
-| getPrevY |  |  | int | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
 
@@ -58,13 +58,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 `exit` denotes a `default` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -72,6 +65,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

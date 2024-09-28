@@ -1,4 +1,7 @@
+#859AF3 kubejs:arcane_ore
 #840F59 minecraft:bedrock
+#FFC34F mekanism:bounding_block
+#DFC019 mekanism:creative_energy_cube
 #80497A minecraft:dirt
 #2DC94B minecraft:furnace
 #3F84B7 minecraft:grass_block
