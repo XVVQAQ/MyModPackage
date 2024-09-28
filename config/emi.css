@@ -152,7 +152,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: craftables;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -162,7 +162,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 10, 10;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -172,7 +172,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: left, top;
+	left-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -182,17 +182,17 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: transparent;
+	left-sidebar-theme: modern;
 
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: craft-history 3;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
@@ -217,12 +217,12 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: modern;
 
 	/**
 	 * The pages in the top sidebar
 	 */
-	top-sidebar-pages: none;
+	top-sidebar-pages: favorites;
 
 	/**
 	 * The subpanels in the top sidebar
@@ -232,7 +232,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the top sidebar to
 	 */
-	top-sidebar-size: 9, 9;
+	top-sidebar-size: 12, 4;
 
 	/**
 	 * How much space to maintain between the top sidebar and obstructions, in pixels
@@ -242,12 +242,12 @@
 	/**
 	 * Where to position the top sidebar
 	 */
-	top-sidebar-align: center, center;
+	top-sidebar-align: left, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: visible;
+	top-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the top sidebar
