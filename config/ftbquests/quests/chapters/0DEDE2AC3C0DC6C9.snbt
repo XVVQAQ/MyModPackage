@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0DEDE2AC3C0DC6C9"
+	group: "128530C830DB4468"
+	icon: "minecraft:crafting_table"
+	id: "0DEDE2AC3C0DC6C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4F1729D7E712839F"]
+			id: "34CE9198ED509163"
+			tasks: [{
+				id: "259D156C5DFB7F44"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: {
+						forge: "logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "终于砍了第一棵树"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:flint"
+			id: "2D3954D5AA77AEA5"
+			rewards: [{
+				count: 4
+				id: "7C1F2D79CA19DA4D"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "417FAB058DB959A2"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "312E666FF3CC5844"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "无法撸树？"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35A3975E52EE051F"]
+			id: "4F1729D7E712839F"
+			tasks: [{
+				id: "4B3F5E428B2F4BB0"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "燧石斧"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D3954D5AA77AEA5"]
+			id: "1F43A7C037E5E072"
+			tasks: [{
+				id: "5572B64B160E2E92"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "击碎沙砾"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6AFDDDDF3398559E"
+				"1F43A7C037E5E072"
+			]
+			id: "25A162723FA73414"
+			tasks: [{
+				id: "302D7C18490144BA"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "刀耕火种？"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "6AFDDDDF3398559E"
+			tasks: [{
+				id: "405A84F215FDF993"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25A162723FA73414"]
+			icon: "notreepunching:plant_string"
+			id: "35A3975E52EE051F"
+			tasks: [
+				{
+					id: "5FD691146F9418F9"
+					item: "notreepunching:plant_string"
+					type: "item"
+				}
+				{
+					id: "32DA3D6B4D152FFE"
+					item: "notreepunching:plant_fiber"
+					type: "item"
+				}
+			]
+			title: "抽丝做线！"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35A3975E52EE051F"]
+			id: "410567DD29D894A3"
+			tasks: [{
+				id: "5FE0084C1C62C9B9"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "终于能挖石头了"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["410567DD29D894A3"]
+			id: "3DD1B0EEB535F345"
+			tasks: [{
+				id: "6A79A36EFF57CDEC"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"34CE9198ED509163"
+				"3DD1B0EEB535F345"
+			]
+			icon: {
+				Count: 1
+				id: "silentgear:pickaxe"
+				tag: {
+					Damage: 0
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:pickaxe_head"
+									Item: {
+										Count: 1b
+										id: "silentgear:pickaxe_head"
+										tag: {
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:stone"
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											Materials: [{
+												ID: "silentgear:wood"
+											}]
+										}
+									}
+								}
+							]
+							Tier: 1
+						}
+						Properties: {
+							HarvestTier: "minecraft:stone"
+							LockStats: 0b
+							ModVersion: "3.6.6"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.8f
+								"silentgear:charging_value": 0.5f
+								"silentgear:durability": 131.0f
+								"silentgear:enchantment_value": 5.0f
+								"silentgear:harvest_speed": 4.0f
+								"silentgear:melee_damage": 2.0f
+								"silentgear:rarity": 4.0f
+								"silentgear:repair_efficiency": 1.0f
+							}
+							Traits: [
+								{
+									Level: 1b
+									Name: "silentgear:ancient"
+								}
+								{
+									Level: 2b
+									Name: "silentgear:flexible"
+								}
+							]
+						}
+						Rendering: {
+							Model: 2
+							ModelKey: "pickaxe:pickaxe_head{stone},rod{wood},"
+						}
+					}
+					SGear_UUID: [I;
+						-517494623
+						369181108
+						-2114803861
+						327782558
+					]
+				}
+			}
+			id: "737EDECA62927AD9"
+			tasks: [
+				{
+					id: "429511105B53115C"
+					item: "silentgear:pickaxe_template"
+					type: "item"
+				}
+				{
+					id: "5E47445163E867C1"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+				{
+					id: "7C654880EA35339F"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "04A34621226896A0"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											ID: "silentgear:pickaxe_head"
+											Item: {
+												Count: 1b
+												id: "silentgear:pickaxe_head"
+												tag: {
+													Damage: 0
+													Materials: [{
+														ID: "silentgear:stone"
+													}]
+												}
+											}
+										}
+										{
+											ID: "silentgear:rod"
+											Item: {
+												Count: 1b
+												id: "silentgear:rod"
+												tag: {
+													Materials: [{
+														ID: "silentgear:wood"
+													}]
+												}
+											}
+										}
+									]
+									Tier: 1
+								}
+								Properties: {
+									HarvestTier: "minecraft:stone"
+									LockStats: 0b
+									ModVersion: "3.6.6"
+									Stats: {
+										"silentgear:attack_reach": 3.0f
+										"silentgear:attack_speed": -2.8f
+										"silentgear:charging_value": 0.5f
+										"silentgear:durability": 131.0f
+										"silentgear:enchantment_value": 5.0f
+										"silentgear:harvest_speed": 4.0f
+										"silentgear:melee_damage": 2.0f
+										"silentgear:rarity": 4.0f
+										"silentgear:repair_efficiency": 1.0f
+									}
+									Traits: [
+										{
+											Level: 1b
+											Name: "silentgear:ancient"
+										}
+										{
+											Level: 2b
+											Name: "silentgear:flexible"
+										}
+									]
+								}
+								Rendering: {
+									Model: 2
+									ModelKey: "pickaxe:pickaxe_head{stone},rod{wood},"
+								}
+							}
+							SGear_UUID: [I;
+								-517494623
+								369181108
+								-2114803861
+								327782558
+							]
+						}
+					}
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "你的第一把寂静镐"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["737EDECA62927AD9"]
+			id: "1302BB91F8ED4007"
+			tasks: [{
+				id: "303D041920667A3E"
+				title: "是时候挖矿了！"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1302BB91F8ED4007"]
+			id: "410000049AE163C9"
+			tasks: [{
+				id: "23B91CF936148934"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "烧炼吧"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["737EDECA62927AD9"]
+			id: "1FC46B6C58D29D66"
+			tasks: [{
+				id: "72930225AD48D487"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AE5FD6C889E8689"]
+			id: "42EFB617878CEE77"
+			tasks: [{
+				id: "6CD9AD557E1FE45C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "嘿，听着，你得存点东西"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["410000049AE163C9"]
+			id: "5AE5FD6C889E8689"
+			tasks: [{
+				id: "4181FC77BCC53A2B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "来硬的"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "588C9BB9926E0189"
+			tasks: [{
+				id: "70DAC51A4EB85C43"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "5642DA2E7AC7D477"
+			tasks: [{
+				id: "37F7B7D47F603FDA"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+	]
+	title: "第一章：初来乍到"
+}
