@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			title: "Stone Age"
-			x: -11.5d
+			x: -8.5d
 			y: -1.0d
 		}
 		{
@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			title: "Immersive engineering"
-			x: -5.5d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -41,7 +41,7 @@
 			}]
 			title: "Create Part.1"
 			x: -5.5d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["040009464480C1F7"]
@@ -56,7 +56,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["1387C895EE0059CE"]
+			dependencies: ["040009464480C1F7"]
 			id: "5D257C4F18DC5BCA"
 			tasks: [{
 				id: "6C2163488F85938B"
@@ -87,7 +87,7 @@
 				item: "industrialforegoing:machine_frame_simple"
 				type: "item"
 			}]
-			title: "industrial foregoing"
+			title: "industrial foregoing part.1"
 			x: 3.5d
 			y: -3.5d
 		}
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			title: "Botania Part.1"
-			x: -5.5d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -144,7 +144,7 @@
 				type: "item"
 			}]
 			title: "EvilCraft"
-			x: 2.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -173,17 +173,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["409F796251985388"]
-			id: "1387C895EE0059CE"
-			tasks: [{
-				id: "5234C7FABAC74BFD"
-				item: "immersiveengineering:blastbrick"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"505E4EAC23C05EBD"
 				"552E779620102A20"
@@ -195,7 +184,7 @@
 				type: "item"
 			}]
 			title: "Twilight forest"
-			x: -8.5d
+			x: -5.5d
 			y: 4.0d
 		}
 		{
@@ -271,7 +260,7 @@
 				type: "item"
 			}]
 			title: "Aether"
-			x: -1.0d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -337,7 +326,7 @@
 				type: "item"
 			}]
 			title: "Mystical Agriculture"
-			x: 5.0d
+			x: 3.5d
 			y: -6.0d
 		}
 		{
@@ -373,8 +362,8 @@
 				type: "item"
 			}]
 			title: "新生魔艺"
-			x: -8.5d
-			y: -1.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["409F796251985388"]
@@ -408,7 +397,7 @@
 				type: "item"
 			}]
 			title: "hostile Neural Nexwork!!!"
-			x: 8.0d
+			x: 6.5d
 			y: -6.0d
 		}
 		{
@@ -443,11 +432,15 @@
 				item: "naturesaura:gold_powder"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["35830AB43380F6F2"]
+			dependencies: [
+				"35830AB43380F6F2"
+				"2FE0196CABAEEC09"
+				"24EFC26A0058DF0E"
+			]
 			id: "76867AE9DC134421"
 			tasks: [{
 				id: "5B29C010EE92C124"
@@ -479,7 +472,35 @@
 			}]
 			title: "Alex's caves?"
 			x: -8.5d
-			y: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14793A5CAA4D6C03"]
+			id: "5597D3CCD91A9607"
+			tasks: [{
+				id: "601C517C463F397E"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "industrial foregoing part.2"
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35830AB43380F6F2"]
+			id: "2FE0196CABAEEC09"
+			tasks: [{
+				id: "6F476AD2EE152465"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "ad astra +"
+			x: 15.5d
+			y: 1.5d
 		}
 	]
 	title: "Main Quest line"
