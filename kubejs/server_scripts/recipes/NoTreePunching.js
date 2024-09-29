@@ -21,28 +21,32 @@ ServerEvents.recipes(event => {
         C:"#forge:rods/wooden",
     })
 
-    event.remove({output:'notreepunching:flint_knife'})
-    event.shaped(Item.of('notreepunching:flint_knife',1),[
-        'A',
-        'C ',
+    event.remove({output:'notreepunching:flint_shovel'})
+    event.shaped(Item.of('notreepunching:flint_shovel',1),[
+        'AB',
+        ' C',
     ],{
-        A:'kubejs:flint_knife_head',
+        A:'kubejs:flint_shovel_head',
         B:"#forge:string",
         C:"#forge:rods/wooden",
     })
 
-    //Tool Head Recipe
-    event.shaped(Item.of('kubejs:flint_knife_head',1),[
+    event.remove({output:'notreepunching:flint_knife'})
+    event.shaped(Item.of('notreepunching:flint_knife',1),[
         'A ',
-        ' ',
+        'B ',
+    ],{
+        A:'minecraft:flint',
+        B:"#forge:rods/wooden",
+    })
+
+    //Tool Head Recipe
+
+    event.shaped(Item.of('kubejs:flint_axe_head',1),[
+        'AA',
     ],{
         A:'minecraft:flint',
     })
 
-    event.shaped(Item.of('kubejs:flint_knife_head',1),[
-        'A ',
-        ' ',
-    ],{
-        A:'minecraft:flint',
-    })
+
 })
