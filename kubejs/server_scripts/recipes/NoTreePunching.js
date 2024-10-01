@@ -11,16 +11,6 @@ ServerEvents.recipes(event => {
         C:"#forge:rods/wooden",
     })
 
-    event.remove({output:'notreepunching:flint_hoe'})
-    event.shaped(Item.of('notreepunching:flint_hoe',1),[
-        'AB',
-        ' C',
-    ],{
-        A:'kubejs:flint_hoe_head',
-        B:"#forge:string",
-        C:"#forge:rods/wooden",
-    })
-
     event.remove({output:'notreepunching:flint_shovel'})
     event.shaped(Item.of('notreepunching:flint_shovel',1),[
         'AB',
@@ -30,20 +20,27 @@ ServerEvents.recipes(event => {
         B:"#forge:string",
         C:"#forge:rods/wooden",
     })
-
-    event.remove({output:'notreepunching:flint_knife'})
-    event.shaped(Item.of('notreepunching:flint_knife',1),[
-        'A ',
-        'B ',
+    
+    event.remove({output:'notreepunching:flint_pickaxe'})
+    event.shaped(Item.of('notreepunching:flint_pickaxe',1),[
+        'AB',
+        ' C',
     ],{
-        A:'minecraft:flint',
-        B:"#forge:rods/wooden",
+        A:'kubejs:flint_pickaxe_head',
+        B:"#forge:string",
+        C:"#forge:rods/wooden",
     })
-
     //Tool Head Recipe
 
     event.shaped(Item.of('kubejs:flint_axe_head',1),[
         'AA',
+    ],{
+        A:'minecraft:flint',
+    })
+
+    event.shaped(Item.of('kubejs:flint_pickaxe_head',1),[
+        'AA',
+        'A ',
     ],{
         A:'minecraft:flint',
     })
