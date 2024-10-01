@@ -17,10 +17,11 @@ ServerEvents.recipes(event => {
         'CD',
     ],{
         A:"#minecraft:logs",
-        B:"#minecraft:axes",
-        C:"#forge:pickaxes",
+        B:'notreepunching:flint_pickaxe',
+        C:'notreepunching:flint_axe',
         D:"#notreepunching:knives",
-    })
+    }).damageIngredient("#minecraft:axes");
+    
     event.remove({output:'minecraft:chest'})
     event.shaped(Item.of('minecraft:chest',2),[
         'ABA',
