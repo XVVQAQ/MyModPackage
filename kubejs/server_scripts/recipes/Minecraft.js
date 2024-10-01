@@ -21,6 +21,29 @@ ServerEvents.recipes(event => {
         C:"#forge:pickaxes",
         D:"#notreepunching:knives",
     })
-    
-    
+    event.remove({output:'minecraft:chest'})
+    event.shaped(Item.of('minecraft:chest',2),[
+        'ABA',
+        'ACA',
+        'ABA',
+    ],{
+        A:'#minecraft:planks',
+        B:'#minecraft:logs',
+        C:"#forge:nuggets/iron",
+    })
+    //移除木炭配方
+    event.remove({output:'minecraft:charcoal'})
+    //烟熏高炉
+    event.remove({output:'minecraft:smoker'})
+    event.shaped(Item.of('minecraft:smoker',1),[
+        'AAA',
+        'BCB',
+        'AAA',
+    ],{
+        A:'#minecraft:logs',
+        B:'minecraft:charcoal',
+        C:'minecraft:furnace',
+    })
+    event.replaceInput({mod:'minecraft',output:'minecraft:blast_furnace'},
+        'minecraft:iron_ingot' , '#forge:plates/iron')
 })

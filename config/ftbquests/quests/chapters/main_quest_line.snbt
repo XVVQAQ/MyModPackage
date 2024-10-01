@@ -358,7 +358,7 @@
 			id: "505E4EAC23C05EBD"
 			tasks: [{
 				id: "7926BAEBC6737F49"
-				item: "ars_nouveau:novice_spell_book"
+				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
 			title: "新生魔艺"
@@ -452,7 +452,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["76867AE9DC134421"]
+			dependencies: ["36C07FB1C5980247"]
 			id: "5CEBAF909947E830"
 			tasks: [{
 				id: "77EA833F5913378F"
@@ -501,6 +501,17 @@
 			title: "ad astra +"
 			x: 15.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["76867AE9DC134421"]
+			id: "36C07FB1C5980247"
+			tasks: [{
+				id: "0E3E7CF44C6B1069"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
 		}
 	]
 	title: "Main Quest line"

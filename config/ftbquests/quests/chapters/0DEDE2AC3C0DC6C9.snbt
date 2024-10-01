@@ -23,8 +23,8 @@
 				type: "item"
 			}]
 			title: "终于砍了第一棵树"
-			x: -8.0d
-			y: 7.0d
+			x: -12.0d
+			y: 4.0d
 		}
 		{
 			icon: "minecraft:flint"
@@ -48,8 +48,8 @@
 				}
 			]
 			title: "无法撸树？"
-			x: -4.0d
-			y: -8.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35A3975E52EE051F"]
@@ -66,8 +66,8 @@
 				type: "item"
 			}]
 			title: "燧石斧"
-			x: -6.0d
-			y: 4.0d
+			x: -10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2D3954D5AA77AEA5"]
@@ -78,7 +78,7 @@
 				type: "item"
 			}]
 			title: "击碎沙砾"
-			x: -2.0d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			title: "刀耕火种？"
-			x: -4.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -109,7 +109,7 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: -4.5d
 		}
 		{
@@ -129,7 +129,7 @@
 				}
 			]
 			title: "抽丝做线！"
-			x: -4.0d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				type: "item"
 			}]
 			title: "终于能挖石头了"
-			x: -2.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -158,8 +158,8 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3DD1B0EEB535F345"]
@@ -339,7 +339,7 @@
 			]
 			title: "你的第一把寂静镐"
 			x: 0.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["737EDECA62927AD9"]
@@ -349,8 +349,8 @@
 				title: "是时候挖矿了！"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1302BB91F8ED4007"]
@@ -361,7 +361,7 @@
 				type: "item"
 			}]
 			title: "烧炼吧"
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -375,8 +375,8 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5AE5FD6C889E8689"]
@@ -570,7 +570,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["5AE5FD6C889E8689"]
+			dependencies: ["0C65621887C36A23"]
 			id: "092CA2789E4043BE"
 			tasks: [{
 				id: "0401ABF8DD78951C"
@@ -583,8 +583,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: -9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["72C2C2B28F57D659"]
@@ -593,23 +593,15 @@
 				id: "5DE979C7B877AF2F"
 				item: {
 					Count: 1
-					id: "mekanism:basic_fluid_tank"
+					id: "mob_grinding_utils:tank"
 					tag: {
-						mekData: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 32000
-									FluidName: "minecraft:lava"
-								}
-							}]
-							Items: [ ]
-							editMode: 0
-							securityMode: 0
-						}
+						Amount: 32000
+						FluidName: "minecraft:lava"
+						ForgeCaps: { }
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 7.0d
 			y: 7.5d
@@ -648,10 +640,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"0B442549A1BE2E6E"
-				"655FF5B8022DA2A3"
-			]
+			dependencies: ["0B442549A1BE2E6E"]
 			id: "24AFAD55CBC949BB"
 			tasks: [{
 				id: "75E3BB35FF336339"
@@ -665,6 +654,7 @@
 			dependencies: [
 				"0B442549A1BE2E6E"
 				"37C6D69B74FA2CDD"
+				"24AFAD55CBC949BB"
 			]
 			id: "655FF5B8022DA2A3"
 			tasks: [{
@@ -765,6 +755,68 @@
 			}]
 			x: 14.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["72C2C2B28F57D659"]
+			id: "69D12BB7C82EAB43"
+			tasks: [{
+				id: "4E3D102EB2FF9332"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69D12BB7C82EAB43"]
+			id: "034FED68FBFBE582"
+			tasks: [{
+				id: "66B5C9E6325751E4"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["034FED68FBFBE582"]
+			id: "0C65621887C36A23"
+			tasks: [{
+				id: "2E1FAE341750E9DA"
+				item: "kubejs:golden_string"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["034FED68FBFBE582"]
+			id: "27AFD15879441825"
+			tasks: [{
+				id: "567DA526C01A9955"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27AFD15879441825"]
+			id: "050234B18F62A36A"
+			tasks: [
+				{
+					id: "779BB8169D2C58AC"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+				{
+					id: "39985022A17426D7"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 7.5d
 		}
 	]
 	title: "第一章：初来乍到"

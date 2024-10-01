@@ -4,5 +4,6 @@ StartupEvents.registry('item',(event)=> {
     event.create('flint_knife_head').texture('kubejs:item/flint_knife_head')
     event.create('flint_shovel_head').texture('')
     event.create('flint_pickaxe_head')
-    
+    event.create('golden_string').texture('kubejs:kubejs/golden_string')
+    event.create('source_ingot').texture('kubejs:kubejs/source_ingot')
   })
