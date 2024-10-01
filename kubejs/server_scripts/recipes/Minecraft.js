@@ -20,8 +20,8 @@ ServerEvents.recipes(event => {
         B:'notreepunching:flint_pickaxe',
         C:'notreepunching:flint_axe',
         D:"#notreepunching:knives",
-    }).damageIngredient("#minecraft:axes");
-    
+    }).damageIngredient('notreepunching:flint_pickaxe','notreepunching:flint_axe',"#notreepunching:knives");
+
     event.remove({output:'minecraft:chest'})
     event.shaped(Item.of('minecraft:chest',2),[
         'ABA',
