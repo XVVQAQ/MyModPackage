@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "22F5D4732E10B788"
+	group: "128530C830DB4468"
+	id: "22F5D4732E10B788"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "45AF6E2F7DAEC6EF"
+			tasks: [{
+				id: "73B2B5AC26252F81"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45AF6E2F7DAEC6EF"]
+			id: "1E53B44BD43159EF"
+			tasks: [{
+				id: "1AFA2E016AB07609"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45AF6E2F7DAEC6EF"]
+			id: "2CB93839CD3D9618"
+			tasks: [
+				{
+					id: "19B4FE3B1E816694"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+				{
+					id: "1EEA168B2437D862"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "25A64CB31AAEB9B9"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CB93839CD3D9618"]
+			id: "2DAEFE42D40FC7F6"
+			tasks: [{
+				id: "23FCC666883467F9"
+				item: "kubejs:source_ingot"
+				type: "item"
+			}]
+			title: "魔源锭"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["29ED006D345A8C08"]
+			icon: "naturesaura:infused_iron"
+			id: "758BCD9106AC330D"
+			tasks: [
+				{
+					id: "3F5C467871B5FA65"
+					item: "naturesaura:infused_iron"
+					type: "item"
+				}
+				{
+					id: "2C4C6F3DB6422FA8"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "602CC9A2FBEA4BCC"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2CB93839CD3D9618"]
+			id: "29ED006D345A8C08"
+			tasks: [{
+				id: "760DBACA5D170910"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			id: "1B69D7B8C8941262"
+			tasks: [
+				{
+					id: "6F9D4D6E31140426"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					id: "716170A8746E7961"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"1B69D7B8C8941262"
+				"758BCD9106AC330D"
+			]
+			id: "079EA394AF63E308"
+			tasks: [{
+				id: "4B2568FA862DFDB9"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+	]
+	title: "第二章：初级魔法"
+}

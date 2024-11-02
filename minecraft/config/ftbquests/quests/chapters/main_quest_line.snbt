@@ -1,0 +1,518 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_quest_line"
+	group: ""
+	icon: "createaddition:seed_oil_bucket"
+	id: "1F3C0EF105FC9ECB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03FAB4073CCEF5EE"
+			tasks: [{
+				id: "0B9F6C592449796E"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Stone Age"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60DECE5481F4ADD5"]
+			id: "040009464480C1F7"
+			tasks: [{
+				id: "08306474D04DF337"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "Immersive engineering"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["505E4EAC23C05EBD"]
+			id: "60DECE5481F4ADD5"
+			tasks: [{
+				id: "4030504B187D8EBA"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Create Part.1"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["040009464480C1F7"]
+			id: "409F796251985388"
+			tasks: [{
+				id: "27A0FED5A8029779"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Create Part.2"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["040009464480C1F7"]
+			id: "5D257C4F18DC5BCA"
+			tasks: [{
+				id: "6C2163488F85938B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Mek Part.1"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56198933C94EA9AC"]
+			id: "0E55BCEA7AA8D3F7"
+			tasks: [{
+				id: "364F582074F97D65"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			title: "Enderio"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E55BCEA7AA8D3F7"]
+			id: "5FE5053910DA6D72"
+			tasks: [{
+				id: "27EADA9B07E817D9"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			title: "industrial foregoing part.1"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D257C4F18DC5BCA"]
+			id: "56198933C94EA9AC"
+			tasks: [{
+				id: "6BBCA18C1355C20B"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "Thermal Series part.1"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CAF08F311B62908"]
+			id: "0A2567CC6864C5DB"
+			tasks: [{
+				id: "388916CC2E35352F"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "Botania Part.1"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6F2E8B4E8BB32C84"
+				"256D92C952ACFA4D"
+			]
+			id: "7138F7E5303EB681"
+			tasks: [{
+				id: "05A7A3AFFAC6C0AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 10000
+					}
+				}
+				type: "item"
+			}]
+			title: "EvilCraft"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7138F7E5303EB681"]
+			dependency_requirement: "all_started"
+			id: "65AA07782D49E3F1"
+			tasks: [{
+				id: "699EC61ED8F98820"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Blood Magic"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E55BCEA7AA8D3F7"]
+			id: "3B9BB90B8A418229"
+			tasks: [{
+				id: "02AD4BC10D7651E3"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "Powah Part.1"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"505E4EAC23C05EBD"
+				"552E779620102A20"
+			]
+			id: "1CAF08F311B62908"
+			tasks: [{
+				id: "68CF6B21A1BBAFE2"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			title: "Twilight forest"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56198933C94EA9AC"]
+			id: "6F2E8B4E8BB32C84"
+			tasks: [{
+				id: "3076E2048BA6E697"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			title: "Mob Grinding Unit"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D257C4F18DC5BCA"]
+			id: "2B16AB696E6CB3AB"
+			tasks: [{
+				id: "372A86A1415EA0F4"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Applied energetic 2"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B9BB90B8A418229"
+				"03943EE6BEB94F09"
+				"50EFAF0273F70D80"
+			]
+			id: "72BF3330275A3A62"
+			tasks: [{
+				id: "0A0F9170C3DFBB6F"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			title: "PneumaticCraft"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E55BCEA7AA8D3F7"]
+			id: "03943EE6BEB94F09"
+			tasks: [{
+				id: "5F7B8F9557492236"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			title: "Extreme Reactors"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B9BB90B8A418229"]
+			id: "618D805CF6AF6FA7"
+			tasks: [{
+				id: "4858D2D946BE9CBC"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "Mekanism Part.2"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A2567CC6864C5DB"]
+			id: "256D92C952ACFA4D"
+			tasks: [{
+				id: "2BBFAE6F943F7C75"
+				item: "aether:altar"
+				type: "item"
+			}]
+			title: "Aether"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"72BF3330275A3A62"
+				"7EF1DA5C8D6BCAB7"
+			]
+			id: "1EC3C4494C2EDD8E"
+			tasks: [{
+				id: "4E8EE0388AA0EC98"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "RFtools"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"14793A5CAA4D6C03"
+				"35830AB43380F6F2"
+			]
+			id: "24EFC26A0058DF0E"
+			tasks: [{
+				id: "5AA5CA6D74C9EEEC"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
+			title: "Alchemistry"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["758A2C004DB4562E"]
+			id: "7EF1DA5C8D6BCAB7"
+			tasks: [{
+				id: "7F23D5C030C3C6AC"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "Powah Part.2"
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D257C4F18DC5BCA"]
+			id: "49BA58F2BD923E1F"
+			tasks: [{
+				id: "157618AAF39A3D74"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "hostile Neural Nexwork?"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["618D805CF6AF6FA7"]
+			id: "0DBAA9084331EF01"
+			tasks: [{
+				id: "080F035E480CD8D3"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			title: "Mystical Agriculture"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EF1DA5C8D6BCAB7"]
+			id: "35830AB43380F6F2"
+			tasks: [{
+				id: "71E294877DEB41FF"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			title: "Draconic Evolution"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B9BB90B8A418229"]
+			id: "758A2C004DB4562E"
+			tasks: [{
+				id: "30334B69F5307E7C"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Ad Astra Moon"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03FAB4073CCEF5EE"]
+			id: "505E4EAC23C05EBD"
+			tasks: [{
+				id: "7926BAEBC6737F49"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "新生魔艺"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["409F796251985388"]
+			id: "111DCB56781AAA0B"
+			tasks: [{
+				id: "5C674CDAB355E3F6"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["136A186E208A2201"]
+			id: "14793A5CAA4D6C03"
+			tasks: [{
+				id: "39591C32E8847DD3"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			title: "Mek Part.3"
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["618D805CF6AF6FA7"]
+			id: "6642D25D318137E3"
+			tasks: [{
+				id: "075CF11C5F775C2F"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			title: "hostile Neural Nexwork!!!"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["618D805CF6AF6FA7"]
+			id: "136A186E208A2201"
+			tasks: [{
+				id: "43142CB7355B8D97"
+				item: "thermal_extra:abyssal_upgrade_augment"
+				type: "item"
+			}]
+			title: "Thermal Part.2"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65AA07782D49E3F1"]
+			id: "50EFAF0273F70D80"
+			tasks: [{
+				id: "38584578B732D175"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "Botania part.2"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03FAB4073CCEF5EE"]
+			id: "552E779620102A20"
+			tasks: [{
+				id: "74F3DE06DE4013F1"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"35830AB43380F6F2"
+				"2FE0196CABAEEC09"
+				"24EFC26A0058DF0E"
+			]
+			id: "76867AE9DC134421"
+			tasks: [{
+				id: "5B29C010EE92C124"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			title: "ProjectE"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36C07FB1C5980247"]
+			id: "5CEBAF909947E830"
+			tasks: [{
+				id: "77EA833F5913378F"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "毕业？"
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			id: "1D04841C1916B443"
+			tasks: [{
+				id: "4C429AACFB6A856A"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			title: "Alex's caves?"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14793A5CAA4D6C03"]
+			id: "5597D3CCD91A9607"
+			tasks: [{
+				id: "601C517C463F397E"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "industrial foregoing part.2"
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35830AB43380F6F2"]
+			id: "2FE0196CABAEEC09"
+			tasks: [{
+				id: "6F476AD2EE152465"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "ad astra +"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76867AE9DC134421"]
+			id: "36C07FB1C5980247"
+			tasks: [{
+				id: "0E3E7CF44C6B1069"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+	]
+	title: "Main Quest line"
+}

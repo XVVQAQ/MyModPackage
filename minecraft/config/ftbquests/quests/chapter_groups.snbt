@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "128530C830DB4468", title: "欢迎" }
+		{ id: "695A9DB2EB60BB86", title: "如何挖矿" }
+		{ id: "798B82F4B18CF5F8", title: "电力生产" }
+		{ id: "7E3904D42069D47C", title: "正方形任务代表魔改有待商榷" }
+	]
+}

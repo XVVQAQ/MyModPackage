@@ -1,0 +1,12 @@
+#05B minecraft:bamboo_jungle
+#420 biomesoplenty:clover_patch
+#4F9 minecraft:dark_forest
+#0AF biomesoplenty:glowing_grotto
+#67B biomesoplenty:grassland
+#4B0 minecraft:jungle
+#0DF biomesoplenty:moor
+#68B biomesoplenty:rainforest
+#5FF minecraft:river
+#5F6 biomesoplenty:rocky_rainforest
+#204 biomesoplenty:rocky_shrubland
+#30B biomesoplenty:volcanic_plains
