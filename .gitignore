@@ -17,3 +17,6 @@ options.txt
 patchouil_data.json
 usercache.json
 usernamecache.json
+
+#big files
+minecraft\mods\alexscaves-2.0.2.jar

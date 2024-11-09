@@ -114,12 +114,6 @@
 		#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
 		transmitterAlloyUpgrade = true
 
-	#Faster Electric Pump
-	[mekanism_extras."faster electric pump"]
-		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
-		#Range: 1 ~ 1000
-		pumpHeavyWaterAmount = 1000
-
 	#Energy Cubes
 	[mekanism_extras."energy cube"]
 		#Maximum number of Joules Absolute energy cubes can store.
@@ -226,4 +220,10 @@
 		eliteOutput = "67108864000"
 		#Maximum number of Joules infinite induction providers can output or accept.
 		ultimateOutput = "536870912000"
+
+	#Advance Electric Pump
+	[mekanism_extras."advance electric pump"]
+		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
+		#Range: 1 ~ 1000
+		pumpHeavyWaterAmount = 1000
 
