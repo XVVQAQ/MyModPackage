@@ -1,0 +1,12 @@
+#80497A minecraft:dirt
+#96D4E9 botania:dreamwood_log
+#646538 botania:glimmering_livingwood
+#3F84B7 minecraft:grass_block
+#4B297F botania:livingrock_slab
+#64274F botania:livingrock_stairs
+#A7ECBC botania:livingwood_fence
+#AEE4B8 botania:mana_glass
+#DBA448 botania:mana_pool
+#100B3A botania:natura_pylon
+#46FB1F minecraft:oak_wall_sign
+#01B1D2 botania:white_floating_flower
