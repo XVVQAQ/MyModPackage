@@ -1,0 +1,16 @@
+filename = 'MasterfulMachinery-3-1.20.1-0.1.15.jar'
+name = 'Masterful Machinery'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b181f4c0251d2168d1fba128ee85c3d31eeea0d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5818581
+project-id = 423476

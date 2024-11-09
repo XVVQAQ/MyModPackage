@@ -1,0 +1,16 @@
+filename = 'corpse-forge-1.20.1-1.0.17.jar'
+name = 'Corpse'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e2e48fd030f9453fd49f4c4d9b3118269171f6ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5816907
+project-id = 316582

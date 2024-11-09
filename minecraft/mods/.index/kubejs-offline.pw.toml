@@ -1,0 +1,16 @@
+filename = 'kubejsoffline-4.0.2.jar'
+name = 'KubeJS Offline Documentation'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2c8083133dd154d789df507d99849618f4228d94'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5296322
+project-id = 641627

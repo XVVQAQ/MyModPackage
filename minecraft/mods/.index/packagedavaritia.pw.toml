@@ -1,0 +1,16 @@
+filename = 'PackagedAvaritia-1.20.1-2.2.0.6.jar'
+name = 'PackagedAvaritia'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c82be183d690ff5aa848e8bf8dda6e2926813501'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5846822
+project-id = 308383

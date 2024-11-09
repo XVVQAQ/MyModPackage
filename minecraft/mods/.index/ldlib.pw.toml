@@ -1,0 +1,16 @@
+filename = 'ldlib-forge-1.20.1-1.0.32.a.jar'
+name = 'LowDragLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '308b3d5b22d0b26f75c82cd668f133373e2b662d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5874436
+project-id = 626676

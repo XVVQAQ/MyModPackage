@@ -7,4 +7,13 @@ minecraft/patchouil_books
 minecraft/logs
 minecraft/schematics
 minecraft/screenshots
-minecraft/mods
+minecraft/backups
+minecraft/crash-report
+
+#Mod
+emi.json
+icon.png
+options.txt
+patchouil_data.json
+usercache.json
+usernamecache.json

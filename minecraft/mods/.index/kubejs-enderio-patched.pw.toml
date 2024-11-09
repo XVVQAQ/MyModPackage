@@ -1,0 +1,16 @@
+filename = 'kubejs_enderio-forge-1.20.1-0.5.1.jar'
+name = 'KubeJS EnderIO Patched'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2b376a28fecdfa23337232a010307b9dd8de8425'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5597556
+project-id = 1018621

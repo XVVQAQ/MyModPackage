@@ -1,0 +1,16 @@
+filename = 'MekanismAdditions-1.20.1-10.4.9.61.jar'
+name = 'Mekanism Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '96fe9c23bc9184e11742eade33176f48d6a72813'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5662586
+project-id = 345425

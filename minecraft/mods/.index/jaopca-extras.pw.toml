@@ -1,0 +1,16 @@
+filename = 'JAOPCAExtras-1.20.1-3.0.0.jar'
+name = 'JAOPCA Extras'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '04dbcf57785e96fcad113191f916e97a3024d4ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4750647
+project-id = 679287
